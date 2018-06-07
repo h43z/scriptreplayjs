@@ -1,31 +1,21 @@
-Script started on 2018-06-06 16:22:40+02:00
-[1m[7m%[27m[1m[m                                                                                                                            [m[27m[24m[Jrich@lappii:~/projects/scriptreplayjs 
-% [K=[?2004hlls -l>[?2004l
-total 8
--rw-r--r-- 1 rich rich 360 Jun  6 16:07 index.html
--rw-r--r-- 1 rich rich 905 Jun  6 16:22 scriptreplay.js
--rw-r--r-- 1 rich rich   0 Jun  6 16:22 timing
--rw-r--r-- 1 rich rich   0 Jun  6 16:22 typescript
-[1m[7m%[27m[1m[m                                                                                                                            [m[27m[24m[Jrich@lappii:~/projects/scriptreplayjs 
-% [K=[?2004h[H[2J[m[27m[24m[Jrich@lappii:~/projects/scriptreplayjs 
-% [Klls -lah>[?2004l
-total 16K
-drwxr-xr-x   2 rich rich 4.0K Jun  6 16:22 [0m[01;34m.[0m
-drwx------ 144 rich rich 4.0K Jun  5 05:20 [01;34m..[0m
--rw-r--r--   1 rich rich  360 Jun  6 16:07 index.html
--rw-r--r--   1 rich rich  905 Jun  6 16:22 scriptreplay.js
--rw-r--r--   1 rich rich    0 Jun  6 16:22 timing
--rw-r--r--   1 rich rich    0 Jun  6 16:22 typescript
-[1m[7m%[27m[1m[m                                                                                                                            [m[27m[24m[Jrich@lappii:~/projects/scriptreplayjs 
-% [K=[?2004hwwho>[?2004l
-rich     tty1         2018-06-02 18:24
-rich     pts/0        2018-06-05 05:13 (:0)
-rich     pts/2        2018-06-06 15:01 (:0)
-rich     pts/3        2018-06-05 05:18 (:0)
-rich     pts/4        2018-06-06 13:50 (:0)
-rich     pts/7        2018-06-06 16:11 (:0)
-[1m[7m%[27m[1m[m                                                                                                                            [m[27m[24m[Jrich@lappii:~/projects/scriptreplayjs 
-% [K=[?2004h[H[2J[m[27m[24m[Jrich@lappii:~/projects/scriptreplayjs 
-% [Keexit>[?2004l
+Script started on 2018-06-07 20:20:58+02:00
+[1m[7m%[27m[1m[0m                                                                      [0m[27m[24m[Jrich@lappii:~/projects/scriptreplayjs 
+% [K[?1h=[?2004hlls -l[?1l>[?2004l
+total 12
+-rw-r--r-- 1 rich rich  293 Jun  7 20:08 index.html
+-rw-r--r-- 1 rich rich  543 Jun  7 20:19 README.md
+-rw-r--r-- 1 rich rich 1438 Jun  7 20:08 scriptreplay.js
+-rw-r--r-- 1 rich rich    0 Jun  7 20:20 timing
+-rw-r--r-- 1 rich rich    0 Jun  7 20:20 typescript
+[1m[7m%[27m[1m[0m                                                                      [0m[27m[24m[Jrich@lappii:~/projects/scriptreplayjs 
+% [K[?1h=[?2004hwwho[?1l>[?2004l
+rich     tty1         2018-06-07 13:31
+rich     pts/0        2018-06-07 19:08 (:0)
+rich     pts/1        2018-06-07 14:54 (tmux(8038).%0)
+rich     pts/2        2018-06-07 19:12 (tmux(8038).%2)
+rich     pts/3        2018-06-07 14:23 (:0)
+rich     pts/4        2018-06-07 19:59 (tmux(8038).%3)
+[1m[7m%[27m[1m[0m                                                                      [0m[27m[24m[Jrich@lappii:~/projects/scriptreplayjs 
+% [K[?1h=[?2004heexit[?1l>[?2004l
 
-Script done on 2018-06-06 16:22:50+02:00
+Script done on 2018-06-07 20:21:04+02:00

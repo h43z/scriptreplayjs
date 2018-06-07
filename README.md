@@ -1,5 +1,25 @@
-recorded with linux utils script
+# scriptreplay.js
+
+Replay and embed with [script](https://linux.die.net/man/1/script) recorded terminal sessions in HTML pages.
+
+```bash
+script -t=timing mysession
 ```
-script -ttiming
+
+```html
+<html>
+  <head>
+    <script src='./scriptreplay.js'></script>
+    <script>
+      window.addEventListener('load', () => {
+        scriptreplay("mysession", "timing", document.querySelector('#terminal'))
+      })
+    </script>
+  </head>
+  <body>
+    <div id="terminal"></div>
+  </body>
+</html>
 ```
-index.html need to be served by some web server
+
+For testing in chrome make sure index.html is served by a webserver.
