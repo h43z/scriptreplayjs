@@ -3,11 +3,25 @@
     <script src='./scriptreplay.js'></script>
     <script>
       window.addEventListener('load', () => {
-        scriptreplay("typescript", "timing", document.querySelector('#terminal'))
+        scriptreplay("mysession", "timing", document.querySelector('#terminal'))
+        scriptreplay("mysession", "timing", document.querySelector('#terminal2'))
+        scriptreplay("mysession", "timing", document.querySelector('#terminal3'))
       })
     </script>
+    <style>
+      body{
+        display: grid;
+        grid-template-rows: 355px 250px auto;
+        grid-template-columns: 1fr 1fr;
+      }
+      #terminal1{ grid-row-start: 1}
+      #terminal2{ grid-row-start: 2}
+      #terminal3{ grid-row-start: 3}
+    </style>
   </head>
   <body>
-    <div id="terminal"></div>
+    <div id="terminal"></div><br>
+    <div id="terminal2"></div><br>
+    <div id="terminal3"></div>
   </body>
 </html>
