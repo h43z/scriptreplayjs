@@ -1,6 +1,6 @@
 # scriptreplay.js
 
-Replay and embed with [script](https://linux.die.net/man/1/script) recorded terminal sessions in HTML pages.
+Embed and replay with [script](https://linux.die.net/man/1/script) recorded terminal sessions in HTML pages.
 
 ```bash
 script -t=timing mysession
