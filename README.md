@@ -21,5 +21,6 @@ script -t=timing mysession
   </body>
 </html>
 ```
+<img src="https://raw.githubusercontent.com/h43z/scriptreplayjs/master/demo.gif" width="600"/>
 
 For testing in chrome make sure index.html is served by a webserver.

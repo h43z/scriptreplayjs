@@ -3,25 +3,32 @@
     <script src='./scriptreplay.js'></script>
     <script>
       window.addEventListener('load', () => {
-        scriptreplay("mysession", "timing", document.querySelector('#terminal'))
+        scriptreplay("mysession", "timing", document.querySelector('#terminal1'))
         scriptreplay("mysession", "timing", document.querySelector('#terminal2'))
         scriptreplay("mysession", "timing", document.querySelector('#terminal3'))
+        scriptreplay("mysession", "timing", document.querySelector('#terminal4'))
+        scriptreplay("mysession", "timing", document.querySelector('#terminal5'))
       })
     </script>
     <style>
       body{
+        margin: 0;
         display: grid;
-        grid-template-rows: 355px 250px auto;
-        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 455px 250px 200px;
+        grid-template-columns: 700px 400px;
       }
       #terminal1{ grid-row-start: 1}
       #terminal2{ grid-row-start: 2}
       #terminal3{ grid-row-start: 3}
+      #terminal4{ grid-row-start: 1}
+      #terminal5{ grid-row-start: 2; grid-row-end: 4}
     </style>
   </head>
   <body>
-    <div id="terminal"></div><br>
-    <div id="terminal2"></div><br>
+    <div id="terminal1"></div>
+    <div id="terminal2"></div>
     <div id="terminal3"></div>
+    <div id="terminal4"></div>
+    <div id="terminal5"></div>
   </body>
 </html>
