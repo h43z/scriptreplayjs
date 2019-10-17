@@ -6,6 +6,7 @@ async function scriptreplay(typescriptFile, timingFile, element){
 
   Terminal.applyAddon(fit)
   let term = new Terminal()
+  element.innerHTML = ''
   term.open(element, false)
   term.fit()
 
